@@ -19,7 +19,6 @@ func greetingPrefix(language string) (prefix string) {
 	default:
 		prefix = englishHelloPrefix
 	}
-
 	return
 }
 
@@ -27,7 +26,6 @@ func Hello(name, language string) string {
 	if name == "" {
 		name = "World"
 	}
-
 	return greetingPrefix(language) + name
 }
 
